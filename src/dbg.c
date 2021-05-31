@@ -1,8 +1,8 @@
 /*
  * dbg.c
  *
- *  Created on: 31 îêò. 2020 ã.
- *      Author: åó
+ *  Created on: 31 Ã®ÃªÃ². 2020 Ã£.
+ *      Author: Ã¥Ã³
  */
 #include "dbg.h"
 
@@ -22,3 +22,5 @@ void dbg_init_gpio() {
 void dbg_trig_gpio() {
 	GPIOC->ODR ^= GPIO_ODR_8;
 }
+
+//test make comments....!!!
